@@ -1,0 +1,18 @@
+/* CSS for the footer */
+
+.footer {
+    width: 40%;
+    margin: 4rem auto;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    border: 0.2px solid #fff;
+  }
+  
+  .footer-content {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  

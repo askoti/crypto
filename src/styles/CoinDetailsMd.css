@@ -1,0 +1,174 @@
+@media screen and (max-width: 1360px) {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .backhome {
+    background-color: #27292f;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 15px;
+    margin: 10px;
+  }
+
+  .cointainer {
+    margin: 30px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #fff;
+  }
+  .name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .name img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .name h1 {
+    padding: 0px 12px;
+    font-weight: 300;
+  }
+  .name p {
+    font-weight: 100;
+    font-size: 14px;
+  }
+
+  .icons {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .icons i {
+    font-size: 25px;
+    padding: 8px;
+  }
+
+  .price-details {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .price h1 {
+    font-size: 52px;
+    font-weight: 300;
+    letter-spacing: 2px;
+  }
+
+  .usd-span {
+    font-size: 17px;
+    font-weight: 200;
+    padding: 0 10px;
+  }
+
+  .time {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .time button {
+    background: transparent;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    margin: 0 5px;
+    font-weight: 500;
+  }
+
+  .details {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: 1px solid #fff;
+  }
+
+  .details-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: left;
+    margin: 10px;
+  }
+
+  .detail {
+    width: 100%;
+  }
+
+  .detail p {
+    font-size: 15px;
+    font-weight: 200;
+  }
+
+  .detail h3 {
+    font-size: 23px;
+    font-weight: 600;
+  }
+
+  .span {
+    font-size: 13px;
+    font-weight: 100;
+    padding: 0 5px;
+  }
+
+  .chart {
+    width: 100%;
+    margin: 40px 0px;
+    font-size: 5px;
+    height: 60vh;
+  }
+
+  .bar {
+    width: 50%;
+    margin: 10px;
+    align-items: center;
+  }
+
+  .bar p {
+    font-size: 15px;
+    font-weight: 200;
+  }
+
+  .progress-bar {
+    width: 100%;
+    background: gold;
+  }
+
+  progress::-webkit-progress-value {
+    background: #ff8896;
+  }
+
+  .buy-sell {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .bs {
+    font-size: 13px;
+    font-weight: 100;
+  }
+}

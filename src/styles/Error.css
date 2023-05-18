@@ -1,0 +1,64 @@
+/* const responsiveContainerStyle = {
+    ...containerStyle,
+    '@media (max-width: 768px)': {
+      marginTop: '50px',
+    },
+  };
+
+  const responsiveHeadingStyle = {
+    ...headingStyle,
+    '@media (max-width: 768px)': {
+      fontSize: '20px',
+    },
+  };
+
+  const responsiveParagraphStyle = {
+    ...paragraphStyle,
+    '@media (max-width: 768px)': {
+      fontSize: '14px',
+      marginTop: '5px',
+    },
+  }; */
+
+.container{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.heading{
+    font-size: 52px;
+    color: #333;
+}
+
+.paragraph{
+    font-size: 30px;
+    color: #777;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 1060px) {
+    .container{
+        margin-top: 70px;
+    }
+    .heading{
+        font-size: 48px;
+    }
+    .paragraph{
+        font-size: 27px;
+        margin-top: 7px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .container{
+        margin-top: 50px;
+    }
+    .heading{
+        font-size: 32px;
+    }
+    .paragraph{
+        font-size: 14px;
+        margin-top: 5px;
+    }
+}
+
