@@ -15,4 +15,11 @@
     max-width: 960px;
     margin: 0 auto;
   }
+
+  @media screen and (max-width: 860px) {
+    .footer-content p{
+      font-size: 12px;
+    }
+  }
+
   

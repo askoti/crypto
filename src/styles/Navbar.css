@@ -65,13 +65,10 @@
     margin-bottom: 18px;
     background-color: #171717;
     transition: transform 0.7s ease-in-out;
-    transform: translateX(100%);
     border-radius: 20px;
     padding: 10px 10px;
   }
-  .sidebar-contain.open {
-    transform: translateX(0%);
-  }
+
   .sidebar-ul {
     list-style: none;
   }
